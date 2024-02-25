@@ -41,7 +41,7 @@ data/
 │   │   ├── dataset.json
 │   ├── ...
 """
-base = '/scratch/msarava7/Data/' #join(os.sep.join(__file__.split(os.sep)[:-3]), 'data') 
+base = '/scratch/msarava7/Data/nnUNetv2/' #join(os.sep.join(__file__.split(os.sep)[:-3]), 'data') 
 # or you can set your own path, e.g., base = '/home/user_name/Documents/U-Mamba/data'
 nnUNet_raw = join(base, 'nnUNet_raw') # os.environ.get('nnUNet_raw')
 nnUNet_preprocessed = join(base, 'nnUNet_preprocessed') # os.environ.get('nnUNet_preprocessed')
